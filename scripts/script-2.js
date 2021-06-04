@@ -1,4 +1,4 @@
-console.log("script-2 loaded")
+console.log("script-2 linked")
 //Results
 var q1Result = document.getElementById('q1Result');
 var q2Result = document.getElementById('q2Result');

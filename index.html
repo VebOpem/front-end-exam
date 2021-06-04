@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="scripts/script-1.js"></script>
     <script defer src="scripts/script-2.js"></script>
+    <script defer src="scripts/script-3.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Exam -- IDG1011 1 Front-end web utvikling</title>
 </head>
@@ -23,6 +24,8 @@
             that i will be applying to a masters degree or jobs in the fall.</p>
         <p></p>
     </div>
+
+
     <h3>Quiz</h3>
     <div>
         <p>How old am i?</p>
@@ -73,7 +76,40 @@
         <p id="q3Result"></p>
     </div>
 
-    <div></div>
+
+    <h3>You can contact me, type in your info</h3>
+    <div>
+        <label for="fName">First Name</label>
+        <input type="text" name="fName" id="fName">
+    </div>
+    <div>
+        <label for="lName">Last Name</label>
+        <input type="text" name="lName" id="lName">
+    </div>
+    <div>
+        <label for="age">Age</label>
+        <input type="text" name="age" id="age">
+    </div>
+    <div>
+        <label for="age">Email</label>
+        <input type="text" name="email" id="email">
+    </div>
+    <div>
+        <label for="city">City</label>
+        <input type="text" name="city" id="city">
+    </div>
+    <div>
+        <label for="Adress">Adress</label>
+        <input type="text" name="adress" id="adress">
+    </div>
+
+    <input onclick="store()" type="button" name="store" value="Store in console" id="st">
+    <input onclick="remove()" type="button" name="store" value="Remove from local storage" id="st">
+
+
+
+
+
     <h3>Here are some of my family and friends</h3>
     <div>
         <input type="radio" name="people" id="btnAll">
@@ -83,15 +119,6 @@
     <ul class="myPeople">
 
     </ul>
-    <table align="center" id="table">
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>City</th>
-            <th>Relation</th>
-        </tr>
-        <tbody id="myTable"></tbody>
-    </table>
     <script src="scripts/script-1.js"></script>
 </body>
 
