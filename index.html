@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="scripts/script-1.js"></script>
+    <script defer src="scripts/script-2.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Exam -- IDG1011 1 Front-end web utvikling</title>
+</head>
+
+<body>
+    <h1>Home</h1>
+    <h2>About me</h2>
+    <div class="about">
+        <img id="picture" src="assets/bilde.png" alt="a portrait of me">
+        <p class="bio">My name is Vebjørn</p>
+        <p class="bio">I am 25 years old</p>
+        <p class="bio">I come from the city of Hamar and i have studied Graphic design at NTNU Gjøvik from 2017 to 2020,
+            and now i
+            am in a one year program in webdesign. I have a summer job where i will be a janitor at a school, and after
+            that i will be applying to a masters degree or jobs in the fall.</p>
+        <p></p>
+    </div>
+    <h3>Quiz</h3>
+    <div>
+        <p>How old am i?</p>
+        <div>
+            <label for="btn1">25</label>
+            <input type="radio" id="btn1">
+        </div>
+        <div>
+            <label for="btn2">22</label>
+            <input type="radio" id="btn2">
+        </div>
+        <div>
+            <label for="btn3">26</label>
+            <input type="radio" id="btn3">
+        </div>
+        <p id="q1Result"></p>
+    </div>
+    <div>
+        <p>Where am i from?</p>
+        <div>
+            <label for="btn1">Gjøvik</label>
+            <input type="radio" id="btn4">
+        </div>
+        <div>
+            <label for="btn2">Hamar</label>
+            <input type="radio" id="btn5">
+        </div>
+        <div>
+            <label for="btn3">Oslo</label>
+            <input type="radio" id="btn6">
+        </div>
+        <p id="q2Result"></p>
+    </div>
+    <div>
+        <p>What do i have a degree in?</p>
+        <div>
+            <label for="btn1">Webdesign</label>
+            <input type="radio" id="btn7">
+        </div>
+        <div>
+            <label for="btn2">Interaction design</label>
+            <input type="radio" id="btn8">
+        </div>
+        <div>
+            <label for="btn3">Graphic design </label>
+            <input type="radio" id="btn9">
+        </div>
+        <p id="q3Result"></p>
+    </div>
+
+    <div></div>
+    <h3>Here are some of my family and friends</h3>
+    <div>
+        <input type="radio" name="people" id="btnAll">
+        <label for="All">All people</label>
+    </div>
+
+    <ul class="myPeople">
+
+    </ul>
+    <table align="center" id="table">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+            <th>Relation</th>
+        </tr>
+        <tbody id="myTable"></tbody>
+    </table>
+    <script src="scripts/script-1.js"></script>
+</body>
+
+</html>

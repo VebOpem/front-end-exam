@@ -1,0 +1,9 @@
+.about{
+    background-color:lightgray;
+}
+p {
+    display: block;
+}
+#picture {
+    max-width: 25%;
+}

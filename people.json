@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Emil",
+        "age": 21,
+        "city": "Gjøvik",
+        "relation": "Friend"
+    },
+    {
+        "name": "Dina",
+        "age": 23,
+        "city": "Gjøvik",
+        "relation": "Friend"
+    },
+    {
+        "name": "Alex",
+        "age": 25,
+        "city": "Gjøvik",
+        "relation": "Friend"
+    },
+    {
+        "name": "Martine",
+        "age": 24,
+        "city": "Gjøvik",
+        "relation": "Friend"
+    },
+    {
+        "name": "Sigurd",
+        "age": 23,
+        "city": "Gjøvik",
+        "relation": "Friend"
+    },
+    {
+        "name": "Oliver",
+        "age": 25,
+        "city": "Gjøvik",
+        "relation": "Friend"
+    },
+    {
+        "name": "Gustav",
+        "age": 25,
+        "city": "Bergen",
+        "relation": "Friend"
+    },
+    {
+        "name": "Håvard",
+        "age": 23,
+        "city": "Oslo",
+        "relation": "Friend"
+    },
+    {
+        "name": "Martin",
+        "age": 23,
+        "city": "Oslo",
+        "relation": "Friend"
+    },
+    {
+        "name": "Eirik",
+        "age": 26,
+        "city": "Oslo",
+        "relation": "Friend"
+    },
+    {
+        "name": "Erlend",
+        "age": 25,
+        "city": "Bergen",
+        "relation": "Friend"
+    },
+    {
+        "name": "Juliane",
+        "age": 27,
+        "city": "",
+        "relation": "Friend"
+    },
+    {
+        "name": "Synne",
+        "age": 25,
+        "city": "Oslo",
+        "relation": "Friend"
+    },
+    {
+        "name": "Halvard",
+        "age": 66,
+        "city": "Hamar",
+        "relation": "Family"
+    },
+    {
+        "name": "Anita",
+        "age": 52,
+        "city": "Lilehammer",
+        "relation": "Family"
+    },
+    {
+        "name": "Sverre",
+        "age": 18,
+        "city": "Lilehammer",
+        "relation": "Family"
+    },
+    {
+        "name": "Geir",
+        "age": 16,
+        "city": "Lilehammer",
+        "relation": "Family"
+    },
+    {
+        "name": "Ingrid",
+        "age": 15,
+        "city": "Lilehammer",
+        "relation": "Family"
+    },
+    {
+        "name": "Reidar",
+        "age": 54,
+        "city": "Oslo",
+        "relation": "Family"
+    },
+    {
+        "name": "Atle",
+        "age": 60,
+        "city": "Oslo",
+        "relation": "Family"
+    }
+]
